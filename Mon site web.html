@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Mon profil </title>
+</head>
+<header>
+    <div class="container">
+        <h1 class="oui">Un voyage à travers mes centres d'intérêt :</h1>
+        <nav>
+            <a href="#intro">Introduction</a>
+            <a href="#about">À propos</a>
+            <a href="#hobbies">Loisirs</a>
+            <a href="#goals">Objectifs</a>
+            <a href="#friends">Amis</a>
+            <a href="#contact">Contact</a>
+            <a href="#us">À propos de nous</a>
+        </nav>
+    </div>
+</header>
+
+<body>   
+    
+<section>
+    <h1><u>Découvrez mes projets et centres d'intérêt:</u></h1>
+</section>   
+
+    
+<section id="intro">
+    <h2><u>Introduction:</u></h2>
+    <p>C'est Ali, jeune étudiant en  3ème  année cycle d'ingénieur génie info, et voici mon site web personnel.</p>
+    </section>
+        
+        
+      
+    <section id="about">
+
+        <h2><u>À propos de moi:</u></h2>
+        <p>Donc voilà, c'est Ali, je suis passionné de moto et j'ai d'autres intérêts également aux jeux vidéo et à la programmation.</p>
+        
+    </section>
+     
+<section id="hobbies">
+<h2><u>Loisirs:</u></h2>
+<ul>
+    <li>Voyages.</li>
+    <li>Programmation.</li>
+    <li>Sport.</li>
+</ul>
+
+</section>
+
+<section id="goals">
+<h2><u>Objectifs:</u></h2>
+<ol>
+
+<li>Apprendre un nouveau langage.</li>
+<li>Visiter 5 nouveaux pays.</li>
+<li>Maîtriser une nouvelle compétence.</li>
+</ol>
+
+</section>
+
+<section id="friends">
+<h2><u>Tableaux d'amis:</u></h2>
+
+<table border =  "1">
+
+    <tr>
+<th>Nom</th>
+<th>Âge</th>
+<th>Ville</th>
+<th>Lien vers leur profil</th>
+
+</tr>
+
+<tr>
+    <td>Ayman</td>
+<td>28 ans</td>
+<td>Casablanca</td>
+<td><a href="https://www.instagram.com/ayman_azzouzi/">Ayman</a></td>
+
+</tr>
+
+<tr>
+
+    <td>Ali</td>
+    <td>25 ans</td>
+    <td>Casablanca</td>
+    <td><a href="https://www.instagram.com/ali.0__0__1/">Ali</a></td>
+
+</tr>
+
+<tr>
+
+    <td>Hamza</td>
+    <td>24 ans</td>
+    <td>Marrakech</td>
+    <td><a href="https://www.instagram.com/hamza.benhamdouch_/">Hamza</a></td>
+</tr>
+
+</table>
+
+</section>
+<br>
+
+<section id="contact">
+    <h2><u>Contactez-moi</u></h2>
+    <form id="contact-form">
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <button type="submit">Envoyer</button>
+    </form>
+</section>
+
+
+<script>
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        if (!name || !email.includes('@')) {
+            event.preventDefault();
+            alert('Veuillez entrer un nom valide et un email valide.');
+        }
+    });
+</script>
+
+</form>
+
+<footer>
+    <p>© 2024 Ali - Tous droits réservés.</p>
+    <p><a href="" style="color: white;">Me contacter</a></p>
+</footer>
+
+</body>
+</html> 

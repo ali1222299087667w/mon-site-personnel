@@ -1,0 +1,151 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #fefae0; 
+    color: #333;
+}
+
+h1, h2 {
+    color: #4B5320; 
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.oui {
+    color: #e9edc9;
+}
+
+header {
+    background-color: #606c38;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    color: #050505;
+    font-size: 1.3rem;
+}
+
+header h1 {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+
+section {
+    margin: 30px auto;
+    padding: 20px;
+    background: #ccd5ae; /* la couleur des fonds */
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+label {
+    color: #4B5320;
+    font-weight: bold;
+}
+
+input, textarea, button {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 1rem;
+}
+
+input:hover, textarea:hover {
+    border-color: #4B5320; /* Bordure qui change de couleur au survol */
+}
+
+button {
+    background-color: #4B5320; 
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #6B8E23; 
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #4B5320; 
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+td {
+    background-color: #F5F5DC;
+    color: #333;
+}
+
+tr:hover td {
+    background-color: #f9f9f9; 
+}
+
+
+footer {
+    background-color: #4B5320;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+    section {
+        padding: 15px;
+        margin: 15px auto;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    table, th, td {
+        font-size: 0.9rem;
+    }
+
+    input, textarea, button {
+        font-size: 0.9rem;
+    }
+}
+a{
+
+color: #333;
+
+}
+
+
